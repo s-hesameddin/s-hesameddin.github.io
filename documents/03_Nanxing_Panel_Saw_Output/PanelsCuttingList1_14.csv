@@ -1,0 +1,58 @@
+#thickness,repetition,unprocessed,length,width,saw blade thickness,edge cutting,number of sub-panels,panel utilization,number of layers,material
+3,1,1,1830,2440,4.4,7,13,0.886249,1,Back Panel
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+0,2,0,1830,1830,2,0,-1,0,0,2440,0,7,NONE
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+0,3,7,1
+1,1,750,1
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+1,2,0,1830,12.2,3,7,0,0,761.4,1678.6,1678.6,0,NONE
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+0,2,7,1
+1,0,600,1
+2,0,1202,1
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+2,0,0,12.2,12.2,0,0,1,1817.8,761.4,1678.6,1678.6,0,$L12.2_W1678.6_1
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+3,2,0,1202,1202,1,0,1,611.4,761.4,1678.6,29.8,0,NONE
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+0,1,820,2
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+4,0,0,1202,1202,0,0,3,611.4,2410.2,29.8,29.8,0,$L1202_W29.8_2
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+5,0,0,1202,1202,0,0,3,611.4,1585.8,820,820,0,L1202_W820_3
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+6,0,0,1202,1202,0,0,3,611.4,761.4,820,820,0,L1202_W820_4
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+7,1,0,600,600,1,0,1,7,761.4,1678.6,134.2,0,NONE
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+0,1,1540,1
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+8,0,0,600,600,0,0,7,7,2305.8,134.2,134.2,0,$L600_W134.2_5
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+9,0,0,600,600,0,0,7,7,761.4,1540,1540,0,L600_W1540_6
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+10,1,0,1830,402.6,2,7,0,0,7,750,750,0,NONE
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+0,2,7,1
+1,0,1416,1
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+11,0,0,402.6,402.6,0,0,10,1427.4,7,750,750,0,$L402.6_W750_7
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+#sub-panel number,next phase sub-panels quantity,panel combination type,length,usable length,number of cutting lines,edge cutting in length,main panel number,X coordinate,Y coordinate,width,usable width,edge cutting in width,code
+12,0,0,1416,1416,0,0,10,7,7,750,750,0,L1416_W750_8
+#cutting line number,line type (0: length cut vertical - 1: cross cut horizontal - 2: edge cutting in length vertical - 3: edge cutting in width horizontal),relative distance,repeated lines
+#layer data(label item shall conform to template label)
+#layer number,number of panels,label item
+0,1,4
+#code (key word - unique in the cutting pattern),BarCode,Material,CutLen,CutWid,Thickness,Length,Width,SideLen1,SideLen2,SideWid1,SideWid2,
+L1202_W820_3,,Back Panel,1202,820,3,1202,820,,,,,
+L1202_W820_4,,Back Panel,1202,820,3,1202,820,,,,,
+L600_W1540_6,,Back Panel,600,1540,3,600,1540,,,,,
+L1416_W750_8,,Back Panel,1416,750,3,1416,750,,,,,
