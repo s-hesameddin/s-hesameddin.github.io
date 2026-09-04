@@ -1,0 +1,1 @@
+Put the existing project images in this folder using the names defined in projects-data.js.

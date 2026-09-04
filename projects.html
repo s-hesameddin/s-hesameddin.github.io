@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Seyed Hesameddin</title>
+    <meta name="description"
+          content="Selected kitchen cabinet design, production documentation and manufacturing projects.">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .projects-page { padding: 80px 0; }
+        .projects-intro { max-width: 780px; margin-bottom: 42px; }
+        .project-catalog {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 28px;
+        }
+        .project-catalog-card {
+            border: 1px solid rgba(0,0,0,.12);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .project-catalog-card img {
+            width: 100%;
+            aspect-ratio: 16/10;
+            object-fit: cover;
+            display: block;
+        }
+        .project-catalog-content { padding: 24px; }
+        .project-catalog-content h2 { margin-top: 0; }
+        .project-number {
+            font-size: .78rem;
+            font-weight: 700;
+            letter-spacing: .12em;
+            opacity: .7;
+        }
+        .project-catalog-content a {
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="container navbar">
+        <a href="index.html" class="logo">HESAMEDDIN</a>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<main class="projects-page">
+
+    <div class="container">
+
+        <h1 class="section-title">Projects</h1>
+
+        <p class="projects-intro">
+            Selected projects demonstrating cabinet design,
+            technical planning, production documentation,
+            cutting preparation and final execution.
+        </p>
+
+        <div id="projectCatalog" class="project-catalog"></div>
+
+    </div>
+
+</main>
+
+<footer>
+    © 2026 Seyed Hesameddin. All rights reserved.
+</footer>
+
+<script src="projects-data.js"></script>
+<script>
+    const catalog = document.getElementById("projectCatalog");
+
+    PROJECTS.forEach(project => {
+        const card = document.createElement("article");
+        card.className = "project-catalog-card";
+
+        card.innerHTML = `
+            <img src="${project.images.cover}" alt="${project.title}">
+            <div class="project-catalog-content">
+                <div class="project-number">${project.number}</div>
+                <h2>${project.title}</h2>
+                <p>${project.shortDescription}</p>
+                <a href="project.html?id=${encodeURIComponent(project.id)}">
+                    View Project →
+                </a>
+            </div>
+        `;
+
+        catalog.appendChild(card);
+    });
+</script>
+
+</body>
+</html>
